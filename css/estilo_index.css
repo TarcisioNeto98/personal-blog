@@ -1,0 +1,52 @@
+/*@media screen{
+
+	body{	
+		background-color: grey;
+	}
+
+	.menu .navegador ul li{
+		display: inline-block;
+	}
+
+	header{
+		height: 200px;
+		width: 1000px;
+		background-color: blue;
+		margin-right: auto;
+		margin-left: auto;
+		border-radius: 0px 0px 630px 630px;
+	}
+	.navegador ul li{
+		display: inline;
+	}
+
+	.navegador a{
+		text-decoration: none;
+	}
+
+}*/
+
+@media (max-width: 480px){
+	header{
+		width: 100%;
+		background-color: grey;
+	}
+
+	header button:before{
+		content: '\2630';
+	}
+
+	header button{
+		width: 70px;
+		height: 50px;
+		border-width: 0px;
+		background-color: grey;
+	}
+
+	.navegador{
+		height: 100px;
+		width: 100%;
+		background-color: grey;
+	}
+
+}

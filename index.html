@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Tarcisio Neto</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/estilo_index.css">
+	</head>
+	<body>
+		<header class="cabecalho">
+			<div class="botao">
+				<button id="principal"> Menu</button>
+			</div>
+			<div id="nav"></div>
+		</header>
+		<section class="centro">
+		</section>
+		<footer></footer>
+		<script type="text/javascript">
+			var botao = document.getElementById("principal"), contador = 0;
+			botao.onclick = function(){
+				var navegador = document.getElementById("nav");
+				if(contador % 2 == 0){
+					navegador.className = "navegador";
+					contador++;
+				}
+				else{
+					navegador.className = "";
+					contador++;
+				}
+			};
+		</script>
+	</body>
+</html>

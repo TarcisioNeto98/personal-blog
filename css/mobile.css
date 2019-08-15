@@ -1,0 +1,11 @@
+.navegador ul li{
+	display: inline;
+}
+
+.navegador a{
+	text-decoration: none;
+}
+
+header{
+	width: 200px;
+}
